@@ -1,5 +1,5 @@
 cd login
-cat system-key >> /root/.ssh/authorized_keys
+cat system-key.pub >> /root/.ssh/authorized_keys
 cd -
 clear
 rm -rf login
